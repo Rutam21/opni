@@ -51,3 +51,5 @@ spec:
               cpu: 100m
               memory: 100Mi
       terminationGracePeriodSeconds: 10
+      serviceAccount: opni-manager
+      serviceAccountName: opni-manager
